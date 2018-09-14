@@ -22,6 +22,25 @@
   font-size: large;
 }
 
+.navbar-custom{
+  background-color: #6894c3!important;
+  
+}
+.navbar-custom a {
+  color:#fff;
+}
+
+.body-site{
+  background-color: #eee;
+  height: 100%;
+}
+
+.col .card {
+  border-radius: 6px!important;
+  -webkit-box-shadow: 0 1px 4px 0 rgba(0,0,0,.14);
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,.14);
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }

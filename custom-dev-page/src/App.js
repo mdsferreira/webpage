@@ -8,9 +8,10 @@ import {
   Navbar,
   NavbarBrand,
   Nav,
-  NavItem
+  NavItem, Container
 } from 'reactstrap';
 import Home from "./components/Home"
+
 
 class App extends Component {
   render() {
@@ -19,8 +20,8 @@ class App extends Component {
         <Row >
             <Col>            
               <Row>
-                <Col>
-                  <Navbar color="light" light expand="md">
+                <Col >
+                  <Navbar  className="navbar-custom" expand="md">
                     <NavbarBrand href="/">Marcelo</NavbarBrand>
                     <Nav className="ml-auto" navbar>
                       <NavItem>
@@ -31,13 +32,14 @@ class App extends Component {
                 </Col>
               </Row>
               <Row>
-                <Col>
-                  <Router >
-                    <Switch>                    
-                      <Route exact path="/sigaf/remessas" component={Home} />     
-                      <Route path="/sigaf/" component={App} />               
-                    </Switch>
-                  </Router>
+                <Col className="body-site">
+                  <Container>
+                    <Router >
+                      <Switch>                    
+                        <Route exact path="/" component={Home} />                           
+                      </Switch>
+                    </Router>
+                  </Container>
                 </Col>
               </Row>
             </Col>
