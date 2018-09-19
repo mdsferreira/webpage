@@ -1,47 +1,68 @@
-.App {
-  text-align: center;
+
+body {
+  font-family: Roboto,sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #555;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+a {
+  color: #4a4a4a;
+  transition: all .3s;
+  position: relative;
+  text-decoration: none;
+  cursor: pointer;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
-.App-title {
-  font-size: 1.5em;
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
-.App-intro {
-  font-size: large;
+.section-title{
+  margin-bottom: 40px;
+  font-size: 36px;
+  line-height: 42px;
+  font-family: Roboto Mono,monospace;
 }
 
-.navbar-custom{
-  background-color: #6894c3!important;
-  
-}
-.navbar-custom a {
-  color:#fff;
+.section__description {
+  margin-bottom: 30px;
 }
 
-.body-site{
-  background-color: #eee;
-  height: 100%;
+.personal-profile {
+  color: #fff;
+  font-family: Roboto Mono,monospace;
+  padding-top: 90px;
 }
 
-.col .card {
-  border-radius: 6px!important;
-  -webkit-box-shadow: 0 1px 4px 0 rgba(0,0,0,.14);
-  box-shadow: 0 1px 4px 0 rgba(0,0,0,.14);
+.profile-name {
+  font-size: 44px;
+  line-height: 50px;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 10px;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.profile-work {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 40px;
 }
+
+.profile-social {
+  margin-bottom: 35px;
+  color: #fff;
+  font-family: Roboto Mono,monospace;
+  padding-top: 90px;
+}
+

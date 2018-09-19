@@ -1,17 +1,35 @@
 import React from 'react';
-import { Button, Card, CardImg, CardBody, CardTitle, CardSubtitle, CardText } from 'reactstrap';
+import { Row, Col, Container} from 'reactstrap';
 
 const Home = (props) => {
     return (
-        <Card>
-        <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
-        <CardBody>
-          <CardTitle>Card title</CardTitle>
-          <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-          <Button>Button</Button>
-        </CardBody>
-      </Card>
+      <Container>
+        <Row>
+          <Col md="4"></Col>
+          <Col md="8">
+            <p className="profile-name">Marcelo Ferreira_</p>
+            <p className="profile-work">Full-Stack Developer</p>
+            <div>
+              <dl>
+                <dt>Age:</dt>
+                <dd>30</dd>
+                <dt>Phone:</dt>
+                <dd><a href="tel:82344563333">+55 27 999445033</a></dd>
+                <dt>Email:</dt>
+                <dd><a href="mailto:marcelosife@gmail.com">marcelosife@gmail.com</a></dd>
+                <dt>Address:</dt>
+                <dd>Vitória, ES, Brazil</dd>
+              </dl>
+            </div>
+            <p class="profile-social">
+              <a href="" target="_blank"><i class="fa fa-github"></i></a>
+              <a href="" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+              <a href="" target="_blank"><i class="fa fa-facebook-square"></i></a>
+            </p>
+          </Col>
+        </Row>
+      </Container>
+
     ); 
 }
 
