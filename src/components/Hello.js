@@ -13,7 +13,7 @@ const Hello = (props) => {
                I am Looking for a challenging role that utilizes my previous skills and experiences and gives me an opportunity to learn more. 
                In a not distant future, I want to be an important developer/ manager of a big company with a huge knowledge in my area.
             </p>
-            <Button>Download CV</Button>
+            <Button color="info">Download CV</Button>
           </Col>
         </Row>
       </section>

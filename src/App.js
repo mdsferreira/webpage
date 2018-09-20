@@ -5,6 +5,7 @@ import Header from "./components/Header"
 import Home from "./components/Home"
 import Hello from "./components/Hello"
 import Footer from "./components/Footer"
+import Resume from "./components/Resume"
 
 class App extends Component {
   render() {
@@ -26,6 +27,8 @@ class App extends Component {
                 <Col className="body-site">
                   <Container>
                     <Hello />  
+                    <hr/>
+                    <Resume />
                     <hr/>
                     <Footer />
                   </Container>
