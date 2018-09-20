@@ -5,7 +5,7 @@ const Home = (props) => {
     return (
       <Container>
         <Row>
-          <Col md="4"></Col>
+          <Col md="4" className="profile-avatar"> </Col>
           <Col md="8">
             <p className="profile-name">Marcelo Ferreira_</p>
             <p className="profile-work">Full-Stack Developer</p>

@@ -1,8 +1,7 @@
 import React from 'react';
-// import { Button, Card, CardImg, CardBody, CardTitle, CardSubtitle, CardText } from 'reactstrap';
-import { Row, Col, Button } from 'reactstrap';
+import { Row, Col } from 'reactstrap';
 
-const Hello = (props) => {
+const NavBar = (props) => {
     return (
         <section id="hello" > 
         <Row>
@@ -20,4 +19,4 @@ const Hello = (props) => {
     ); 
 }
 
-export default Hello;
+export default NavBar;

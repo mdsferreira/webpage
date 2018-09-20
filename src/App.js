@@ -18,7 +18,7 @@ class App extends Component {
                   <Header />
                 </Col>
               </Row>
-              <Row>
+              <Row className="profile-body">
                 <Col>
                   <Home />
                 </Col>

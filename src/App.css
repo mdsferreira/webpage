@@ -23,7 +23,7 @@ p {
   margin-inline-end: 0px;
 }
 
-.section {
+section {
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -37,6 +37,13 @@ p {
 
 .section__description {
   margin-bottom: 30px;
+}
+
+.profile-body{
+  background-color: rgb(102, 102, 102);
+}
+.profile-avatar{
+  background-color: #ccc;
 }
 
 .personal-profile {
