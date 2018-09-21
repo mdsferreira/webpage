@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
 import { Row, Col, Container } from 'reactstrap';
-import Header from "./components/Header"
+import NavBar from "./components/NavBar"
 import Home from "./components/Home"
 import Hello from "./components/Hello"
 import Footer from "./components/Footer"
 import Resume from "./components/Resume"
+import Projects from "./components/Projects"
 
 class App extends Component {
   render() {
@@ -13,9 +14,9 @@ class App extends Component {
       <div className="App">
         <Row >
             <Col>            
-              <Row>
+              <Row className="menu">
                 <Col >
-                  <Header />
+                  <NavBar />
                 </Col>
               </Row>
               <Row className="profile-body">
@@ -30,7 +31,9 @@ class App extends Component {
                     <hr/>
                     <Resume />
                     <hr/>
-                    <Footer />
+                    <Projects />
+                    <hr />
+                    <Footer />    
                   </Container>
                 </Col>
               </Row>              

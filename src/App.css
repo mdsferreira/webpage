@@ -28,6 +28,13 @@ section {
   padding-bottom: 60px;
 }
 
+img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
 .section-title{
   margin-bottom: 40px;
   font-size: 36px;
@@ -82,7 +89,6 @@ section {
   background-color: #ffffff;
 }
 
-
 .profile-social a{
   color: #17a2b8;
   font-size: 20pt;
@@ -103,4 +109,84 @@ section {
   color: #999;
   margin-bottom: 40px;
   margin-top: 30px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+ol, ul {
+  padding: 0;
+  list-style: none;
+}
+
+nav ul li a {
+  padding-right: 50px;
+  color: #999;
+}
+
+nav ul li a:hover {
+  padding-right: 50px;
+  color: #17a2b8;
+}
+
+/* nav{
+  position: fixed;
+  top: 0px;
+} */
+
+.menu.menu--active .menu-wrapper {
+  margin-top: 25px;
+}
+
+.menu.menu--active .menu-wrapper a {
+  color: #555!important;
+  opacity: 1;
+}
+
+.menu .menu-wrapper a {
+  color: #555!important;
+  opacity: 1;
+}
+
+.menu .menu-wrapper a:hover {
+  color: #17a2b8!important;
+  opacity: 1;
+  text-decoration: none;
+}
+
+.menu .menu-wrapper a:hover:after {
+  content: "_";
+}
+
+.menu .menu-wrapper {
+  margin-top: 25px;
+}
+
+.menu .menu-wrapper nav {
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Roboto Mono,monospace;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.menu.menu--active {
+  background-color: #fff;
+  box-shadow: 0 5px 8px 0 rgba(0,0,0,.14);
+}
+
+.menu{
+  position: fixed;
+  padding: 0;
+  height: 0;
+  top: 0;
+  z-index: 100;
+  width: 101%;
+  height: 70px;
+  transition: all .5s;
+
+  background-color: #fff;
+  box-shadow: 0 5px 8px 0 rgba(0,0,0,.14);
+
 }
