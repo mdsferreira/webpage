@@ -7,7 +7,7 @@ const Resume = (props) => {
     return (
       <section id="hello"> 
         <Row>
-          <Col md="10">
+          <Col md="10" className="resume-body">
             <h2 className="section-title">Resume_</h2>
             <p>Bachelor in Computer Science and about 6 years of experience in software development and web systems. 
                I have also gained valuable work with technologies like Java, AngularJS, and Python and also gained experience in managing a system.  
