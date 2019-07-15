@@ -1,9 +1,12 @@
 import React from 'react';
-import { Row, Col, Container } from 'reactstrap';
+import { Container } from 'reactstrap';
 
-const NavBar = (props) => {
+const NavBar = ({scrollPosition}) => {
+    console.log('scroll', scrollPosition);
+    
+    const style = scrollPosition ? "menu-wrapper" : "menu-wrapper-top";
     return (
-      <div className="menu-wrapper">
+      <div className={style}>
         <Container>
          <nav> 
           <ul>
