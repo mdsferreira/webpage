@@ -1,21 +1,38 @@
 {
-  "name": "custom-dev-page",
+  "name": "my-webpage",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "bootstrap": "^4.3.1",
     "font-awesome": "^4.7.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.4.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-images": "^1.0.0",
+    "react-imageview": "^1.2.1",
+    "react-lightbox-component": "^1.2.1",
+    "react-photo-gallery": "^8.0.0",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "1.1.5",
-    "react-timeline-scribble": "^1.0.12",
-    "reactstrap": "^6.4.0"
+    "react-scripts": "^3.1.1",
+    "react-simple-modal-slideshow": "^1.0.1",
+    "react-timeline-scribble": "^1.0.14",
+    "reactstrap": "^6.5.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
