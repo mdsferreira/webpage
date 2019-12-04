@@ -119,10 +119,10 @@ const Resume = ({ refSection }) => {
               <Row>
                 <Col md="2">React</Col>
                 <Col className="text-center" md="8">
-                  20%
+                  70%
                 </Col>
               </Row>
-              <Progress color="info" value="20" />
+              <Progress color="info" value="70" />
               <Row>
                 <Col md="2">AngularJS</Col>
                 <Col className="text-center" md="8">

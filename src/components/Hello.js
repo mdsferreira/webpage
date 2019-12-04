@@ -1,7 +1,8 @@
 import React from "react";
 // import { Button, Card, CardImg, CardBody, CardTitle, CardSubtitle, CardText } from 'reactstrap';
 import { Row, Col, Button } from "reactstrap";
-
+const cvLink =
+  "https://docs.google.com/document/d/1D6LuQGVPWXi7Td6rbvHZynqn1PgmLG8R_XthHQ2yGEc/edit?usp=drive_web&ouid=110185671688827546138";
 const Hello = ({ refSection }) => {
   return (
     <section id="hello" ref={refSection}>
@@ -18,7 +19,9 @@ const Hello = ({ refSection }) => {
             I want to be an important developer/ manager of a big company with a
             huge knowledge in my area.
           </p>
-          <Button color="info">Download CV</Button>
+          <Button color="info" onClick={() => window.open(cvLink, "_black")}>
+            Download CV
+          </Button>
         </Col>
       </Row>
     </section>

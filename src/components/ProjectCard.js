@@ -10,14 +10,14 @@ const ProjectCard = ({
   link,
   imageList
 }) => {
-  const [showView, setShowView] = React.useState(false);
+  // const [showView, setShowView] = React.useState(false);
   return (
     <Container style={{ padding: 0 }}>
-      <Card>
+      <Card style={{ padding: "10px", borderRadius: 0, borderTop: 0 }}>
         <Row>
           <Col md="4">
             <div
-              onClick={() => setShowView(true)}
+              // onClick={() => setShowView(true)}
               style={{
                 backgroundImage: `url(${projectImage})`,
                 width: "120px",
